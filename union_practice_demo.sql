@@ -1,7 +1,5 @@
 use joins_practice;
 
--- USE THE SAME FRUIT TABLES THAT WE PRACTICED WITH FOR JOINS
-
 /* UNION ALL */
 SELECT t1.ID T1ID, t1.Fruit AS T1Fruit
 FROM Table1_fruit_basket t1
