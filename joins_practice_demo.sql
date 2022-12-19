@@ -90,7 +90,7 @@ FROM
 		ON 
         t1.ID = t2.ID;
         
--- You can emulate FULL OUTER JOIN using UNION:
+
 
 with two tables t1, t2:
 
@@ -112,13 +112,12 @@ WHERE
 
 
 
--- PRACTICE DEMO CONTINUES
 
 /* CROSS JOIN */
 SELECT t1.*,t2.*
 FROM Table1_fruit_basket t1
 CROSS JOIN Table2_fruit_basket t2;
 
--- Clean up (optional)
+-- Clean up 
 DROP TABLE Table1;
 DROP TABLE Table2;
